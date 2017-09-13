@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	csv "github.com/bcmcmill/go-csv"
+	csv "github.com/eltorocorp/go-csv"
 )
 
 type DialectBuilder struct {

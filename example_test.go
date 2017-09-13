@@ -1,10 +1,10 @@
-package csv_test
+package csv
 
 import (
 	"bytes"
-	"fmt"
+	"encoding/csv"
 
-	"github.com/bcmcmill/go-csv"
+	"fmt"
 )
 
 func Example_readingWriting() {

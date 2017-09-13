@@ -2,3 +2,5 @@
 *.swp
 .vscode
 .DS_Store
+glide.lock
+vendor/*

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	csv "github.com/bcmcmill/go-csv"
-	"github.com/bcmcmill/go-csv/dialect"
+	csv "github.com/eltorocorp/go-csv"
+	"github.com/eltorocorp/go-csv/dialect"
 )
 
 func Example_flag() {

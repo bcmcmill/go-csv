@@ -61,7 +61,7 @@ To automatically detects the CSV delimiter conforming to the specifications outl
     package main
     
     import (
-    	"github.com/bcmcmill/go-csv/detector"
+    	"github.com/eltorocorp/go-csv/detector"
     	"os"
     	"fmt"
     )
@@ -103,17 +103,7 @@ the module behave the same as the `csv` module in the Go standard library).
 Documentation
 -------------
 Package documentation can be found
-[here](http://godoc.org/github.com/JensRantil/go-csv).
+[here](http://godoc.org/github.com/JensRantil/go-csv)
 
-Why was this developed?
------------------------
-I needed it for [mysqlcsvdump](https://github.com/JensRantil/mysqlcsvdump) to
-support variations of CSV output. The `csv` module in the Go (1.2) standard
-library was inadequate as it it does not support any CSV dialect modifications
-except changing separator and partially line termination.
 
-Who developed this?
--------------------
-I'm Jens Rantil. Have a look at [my
-blog](http://jensrantil.github.io/pages/about-jens.html) for more info on what
-I'm working on.
+
